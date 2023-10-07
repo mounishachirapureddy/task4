@@ -17,7 +17,7 @@ pipeline {
                               branches: [[name: 'main']], 
                               doGenerateSubmoduleConfigurations: false, 
                               extensions: [[$class: 'GitSCMExtension', userRemoteConfigs: [[url: gitUrl]]]], 
-                              userRemoteConfigs: [[url: gitUrl, credentialsId: credentialsId]]])
+                              userRemoteConfigs: [[url: gitUrl, credentialsId: e5354950-0743-49e3-9873-0495dc7066dc]]])
                 }
             }
         }
